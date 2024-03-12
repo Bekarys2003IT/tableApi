@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1323D0832BA05AF50084DD5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323D0822BA05AF50084DD5C /* AppDelegate.swift */; };
+		1323D0872BA05AF50084DD5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323D0862BA05AF50084DD5C /* ViewController.swift */; };
+		1323D08C2BA05AF70084DD5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1323D08B2BA05AF70084DD5C /* Assets.xcassets */; };
+		1323D08F2BA05AF70084DD5C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1323D08E2BA05AF70084DD5C /* Base */; };
+		1323D0982BA05B120084DD5C /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1323D0972BA05B120084DD5C /* SnapKit */; };
+		1323D09A2BA05B120084DD5C /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 1323D0992BA05B120084DD5C /* SnapKit-Dynamic */; };
+		1323D09D2BA05C140084DD5C /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1323D09C2BA05C140084DD5C /* Alamofire */; };
+		1323D09F2BA05C140084DD5C /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 1323D09E2BA05C140084DD5C /* AlamofireDynamic */; };
+		1323D0A12BA05C480084DD5C /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323D0A02BA05C480084DD5C /* TableViewController.swift */; };
+		1323D0A32BA05C5D0084DD5C /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323D0A22BA05C5D0084DD5C /* TableViewCell.swift */; };
+		1323D0A52BA06FC70084DD5C /* Dar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323D0A42BA06FC70084DD5C /* Dar.swift */; };
+		1323D0A72BA070920084DD5C /* AlamoNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323D0A62BA070920084DD5C /* AlamoNetwork.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1323D07F2BA05AF50084DD5C /* HometaskTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HometaskTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1323D0822BA05AF50084DD5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1323D0862BA05AF50084DD5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1323D08B2BA05AF70084DD5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1323D08E2BA05AF70084DD5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1323D0902BA05AF70084DD5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1323D0A02BA05C480084DD5C /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		1323D0A22BA05C5D0084DD5C /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		1323D0A42BA06FC70084DD5C /* Dar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dar.swift; sourceTree = "<group>"; };
+		1323D0A62BA070920084DD5C /* AlamoNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamoNetwork.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1323D07C2BA05AF50084DD5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1323D09D2BA05C140084DD5C /* Alamofire in Frameworks */,
+				1323D09F2BA05C140084DD5C /* AlamofireDynamic in Frameworks */,
+				1323D0982BA05B120084DD5C /* SnapKit in Frameworks */,
+				1323D09A2BA05B120084DD5C /* SnapKit-Dynamic in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1323D0762BA05AF50084DD5C = {
+			isa = PBXGroup;
+			children = (
+				1323D0812BA05AF50084DD5C /* HometaskTable */,
+				1323D0802BA05AF50084DD5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1323D0802BA05AF50084DD5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1323D07F2BA05AF50084DD5C /* HometaskTable.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1323D0812BA05AF50084DD5C /* HometaskTable */ = {
+			isa = PBXGroup;
+			children = (
+				1323D0822BA05AF50084DD5C /* AppDelegate.swift */,
+				1323D0862BA05AF50084DD5C /* ViewController.swift */,
+				1323D08B2BA05AF70084DD5C /* Assets.xcassets */,
+				1323D08D2BA05AF70084DD5C /* LaunchScreen.storyboard */,
+				1323D0902BA05AF70084DD5C /* Info.plist */,
+				1323D0A02BA05C480084DD5C /* TableViewController.swift */,
+				1323D0A22BA05C5D0084DD5C /* TableViewCell.swift */,
+				1323D0A42BA06FC70084DD5C /* Dar.swift */,
+				1323D0A62BA070920084DD5C /* AlamoNetwork.swift */,
+			);
+			path = HometaskTable;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1323D07E2BA05AF50084DD5C /* HometaskTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1323D0932BA05AF70084DD5C /* Build configuration list for PBXNativeTarget "HometaskTable" */;
+			buildPhases = (
+				1323D07B2BA05AF50084DD5C /* Sources */,
+				1323D07C2BA05AF50084DD5C /* Frameworks */,
+				1323D07D2BA05AF50084DD5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HometaskTable;
+			packageProductDependencies = (
+				1323D0972BA05B120084DD5C /* SnapKit */,
+				1323D0992BA05B120084DD5C /* SnapKit-Dynamic */,
+				1323D09C2BA05C140084DD5C /* Alamofire */,
+				1323D09E2BA05C140084DD5C /* AlamofireDynamic */,
+			);
+			productName = HometaskTable;
+			productReference = 1323D07F2BA05AF50084DD5C /* HometaskTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1323D0772BA05AF50084DD5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					1323D07E2BA05AF50084DD5C = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 1323D07A2BA05AF50084DD5C /* Build configuration list for PBXProject "HometaskTable" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1323D0762BA05AF50084DD5C;
+			packageReferences = (
+				1323D0962BA05B120084DD5C /* XCRemoteSwiftPackageReference "SnapKit" */,
+				1323D09B2BA05C140084DD5C /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = 1323D0802BA05AF50084DD5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1323D07E2BA05AF50084DD5C /* HometaskTable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1323D07D2BA05AF50084DD5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1323D08C2BA05AF70084DD5C /* Assets.xcassets in Resources */,
+				1323D08F2BA05AF70084DD5C /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1323D07B2BA05AF50084DD5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1323D0872BA05AF50084DD5C /* ViewController.swift in Sources */,
+				1323D0A72BA070920084DD5C /* AlamoNetwork.swift in Sources */,
+				1323D0A32BA05C5D0084DD5C /* TableViewCell.swift in Sources */,
+				1323D0A12BA05C480084DD5C /* TableViewController.swift in Sources */,
+				1323D0832BA05AF50084DD5C /* AppDelegate.swift in Sources */,
+				1323D0A52BA06FC70084DD5C /* Dar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1323D08D2BA05AF70084DD5C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1323D08E2BA05AF70084DD5C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1323D0912BA05AF70084DD5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1323D0922BA05AF70084DD5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1323D0942BA05AF70084DD5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 675L5G2V4N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HometaskTable/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bebe.HometaskTable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1323D0952BA05AF70084DD5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 675L5G2V4N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HometaskTable/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bebe.HometaskTable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1323D07A2BA05AF50084DD5C /* Build configuration list for PBXProject "HometaskTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1323D0912BA05AF70084DD5C /* Debug */,
+				1323D0922BA05AF70084DD5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1323D0932BA05AF70084DD5C /* Build configuration list for PBXNativeTarget "HometaskTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1323D0942BA05AF70084DD5C /* Debug */,
+				1323D0952BA05AF70084DD5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1323D0962BA05B120084DD5C /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		1323D09B2BA05C140084DD5C /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1323D0972BA05B120084DD5C /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1323D0962BA05B120084DD5C /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		1323D0992BA05B120084DD5C /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1323D0962BA05B120084DD5C /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+		1323D09C2BA05C140084DD5C /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1323D09B2BA05C140084DD5C /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		1323D09E2BA05C140084DD5C /* AlamofireDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1323D09B2BA05C140084DD5C /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = AlamofireDynamic;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1323D0772BA05AF50084DD5C /* Project object */;
+}
